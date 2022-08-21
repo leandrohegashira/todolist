@@ -17,7 +17,7 @@
 </head>
 
 <body>
-    <div id="todo-container">
+    <div class="todo-container">
         <header>
             <h1>To Do Avançado</h1>
         </header>
@@ -30,7 +30,7 @@
                 </button>
             </div>
         </form>
-        <form id="edit-form">
+        <form id="edit-form" class="">
             <p>Edite a sua tarefa: </p>
             <div class="form-control">
                 <input type="text" id="edit-input">
@@ -56,34 +56,33 @@
                     <option value="all">Todos</option>
                     <option value="done">Feitas</option>
                     <option value="done">A fazer</option>
-
                 </select>
+            </div>   
+        </div>
+        <div id="todo-list">
+            <div class="todo">
+                <h3>Estou fazendo alguma coisa...</h3>
+                <button class="finish-todo">
+                    <i class="fa-solid fa-check"></i>
+                </button>
+                <button class="edit-todo">
+                    <i class="fa-solid fa-pen"></i>
+                </button>
+                <button class="remove-todo">
+                    <i class="fa-solid fa-xmark"></i>
+                </button>
             </div>
-            <div id="todo-list">
-                <div class="todo">
-                    <h3>Estou fazendo alguma coisa...</h3>
-                    <button class="finish-todo">
-                        <i class="fa-solid fa-check"></i>
-                    </button>
-                    <button class="edit-todo">
-                        <i class="fa-solid fa-pen"></i>
-                    </button>
-                    <button class="remove-todo">
-                        <i class="fa-solid fa-xmark"></i>
-                    </button>
-                </div>
-                <div class="todo">
-                    <h3>Estudar Javascript</h3>
-                    <button class="finish-todo">
-                        <i class="fa-solid fa-check"></i>
-                    </button>
-                    <button class="edit-todo">
-                        <i class="fa-solid fa-pen"></i>
-                    </button>
-                    <button class="remove-todo">
-                        <i class="fa-solid fa-xmark"></i>
-                    </button>
-                </div>
+            <div class="todo">
+                <h3>Estudar Javascript</h3>
+                <button class="finish-todo">
+                    <i class="fa-solid fa-check"></i>
+                </button>
+                <button class="edit-todo">
+                    <i class="fa-solid fa-pen"></i>
+                </button>
+                <button class="remove-todo">
+                    <i class="fa-solid fa-xmark"></i>
+                </button>
             </div>
         </div>
     </div>
